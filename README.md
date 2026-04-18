@@ -1,6 +1,6 @@
 # 📈 股票新闻爬虫 (Stock News Crawler)
 
-基于 Python + akshare 的股票新闻采集系统，支持多线程并发爬取、智能去重、断点续爬和多种存储格式。
+基于 Python + akshare 的股票相关新闻采集，支持多线程并发爬取、智能去重、断点续爬和多种存储格式。
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -59,7 +59,7 @@ stock_news_crawler/
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/stock_news_crawler.git
+git clone https://github.com/zxciop7200/stock_news_crawler.git
 cd stock_news_crawler
 ```
 
@@ -145,14 +145,6 @@ set REQUEST_DELAY=0.5
 # 运行
 python main.py
 ```
-## 爬取过程
-
-
-![img.png](img.png)
-
-使用时，可删除项目中的图片，对项目无任何影响
-
----
 
 ## ⚙️ 配置说明
 
