@@ -326,15 +326,7 @@ SELECT * FROM news LIMIT 10;
 
 ## 📝 更新日志
 
-### v2.0.0 (2024-XX-XX)
-- ✅ **关键Bug修复**：`update_crawled_record` 现在正确返回更新后的 DataFrame
-- ✅ **新增重试机制**：使用 tenacity 实现指数退避重试
-- ✅ **多格式支持**：新增 CSV 追加模式和 SQLite 支持
-- ✅ **配置增强**：所有参数支持环境变量覆盖
-- ✅ **类型安全**：添加完整类型注解
-- ✅ **性能优化**：CSV 模式比 Excel 快 10-100 倍
-
-### v1.0.0 (2024-XX-XX)
+### v1.0.0 (2026-4-18)
 - 🎉 初始版本发布
 - 支持 akshare 新闻爬取
 - 基础多线程支持
@@ -342,28 +334,8 @@ SELECT * FROM news LIMIT 10;
 
 ---
 
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
----
-
-## 🙏 致谢
-
-- [akshare](https://www.akshare.xyz/) - 提供股票数据接口
-- [pandas](https://pandas.pydata.org/) - 数据处理
-- [tenacity](https://github.com/jd/tenacity) - 重试机制
-
----
-
 ## 📧 联系方式
 
-如有问题或建议，欢迎提交 [Issue](https://github.com/yourusername/stock_news_crawler/issues)。
+如有问题或建议，欢迎提交 [Issue](https://github.com/zxciop7200/stock_news_crawler/issues)。
 
 **免责声明**：本工具仅供学习研究使用，不构成任何投资建议。股市有风险，投资需谨慎。
